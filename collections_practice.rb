@@ -57,9 +57,9 @@ def count_elements(array)
 
       newAr.push(each_element)
       newAr[index][:count] = counter
-      index += 1
+     
       testAr.push(array[index])
-      
+       index += 1
     end
   end
   newAr
